@@ -75,8 +75,10 @@
             formElements.style.display = "none"; // hide form
           }
           var thankYouMessage = form.querySelector(".thankyou_message");
+          var field = form.querySelector(".field");
           if (thankYouMessage) {
             thankYouMessage.style.display = "block";
+            field.style.display = "none";
           }
         }
     };
